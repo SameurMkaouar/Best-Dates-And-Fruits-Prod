@@ -32,20 +32,20 @@ A modern, multilingual website for Best Dates & Fruits, showcasing premium Tunis
 ### Installation
 
 1. Clone the repository:
-\`\`\`bash
-git clone https://github.com/your-username/best-dates-fruits-website.git
-cd best-dates-fruits-website
-\`\`\`
+   \`\`\`bash
+   git clone https://github.com/your-username/best-dates-fruits-website.git
+   cd best-dates-fruits-website
+   \`\`\`
 
 2. Install dependencies:
-\`\`\`bash
-npm install
-\`\`\`
+   \`\`\`bash
+   npm install
+   \`\`\`
 
 3. Run the development server:
-\`\`\`bash
-npm run dev
-\`\`\`
+   \`\`\`bash
+   npm run dev
+   \`\`\`
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
@@ -59,26 +59,26 @@ npm start
 ## Project Structure
 
 \`\`\`
-├── app/                    # Next.js app directory
-│   ├── globals.css        # Global styles
-│   ├── layout.tsx         # Root layout
-│   ├── page.tsx          # Home page
-│   ├── about/            # About page
-│   ├── products/         # Products page
-│   ├── pastries/         # Pastries page
-│   ├── contact/          # Contact page
-│   └── search/           # Search page
-├── components/            # React components
-│   ├── ui/               # shadcn/ui components
-│   ├── navbar.tsx        # Navigation component
-│   ├── footer.tsx        # Footer component
-│   └── ...               # Other components
-├── lib/                  # Utility functions
-│   ├── translations.ts   # Translation system
-│   └── utils.ts         # Utility functions
-├── public/               # Static assets
-│   └── images/          # Image assets
-└── hooks/               # Custom React hooks
+├── app/ # Next.js app directory
+│ ├── globals.css # Global styles
+│ ├── layout.tsx # Root layout
+│ ├── page.tsx # Home page
+│ ├── about/ # About page
+│ ├── products/ # Products page
+│ ├── pastries/ # Pastries page
+│ ├── contact/ # Contact page
+│ └── search/ # Search page
+├── components/ # React components
+│ ├── ui/ # shadcn/ui components
+│ ├── navbar.tsx # Navigation component
+│ ├── footer.tsx # Footer component
+│ └── ... # Other components
+├── lib/ # Utility functions
+│ ├── translations.ts # Translation system
+│ └── utils.ts # Utility functions
+├── public/ # Static assets
+│ └── images/ # Image assets
+└── hooks/ # Custom React hooks
 \`\`\`
 
 ## Deployment
@@ -120,11 +120,11 @@ Update the color scheme in \`tailwind.config.ts\`:
 
 \`\`\`typescript
 colors: {
-  bestdatesandfruits: {
-    gold: "#D4AF37",
-    darkgold: "#B8941F",
-    // ... other colors
-  }
+bestdatesandfruits: {
+gold: "#D4AF37",
+darkgold: "#B8941F",
+// ... other colors
+}
 }
 \`\`\`
 
@@ -148,5 +148,5 @@ This project is proprietary and belongs to Best Dates & Fruits.
 
 ## Support
 
-For support, email direction@bestdatesandfruits.com or visit our contact page.
-"# bdf" 
+For support, send an email to direction@bestdatesandfruits.com or visit our contact page.
+"# bdf"
